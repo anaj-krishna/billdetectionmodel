@@ -29,7 +29,7 @@ def extract_amount_from_bill(image_path):
         for amount in amounts:
             print(amount)
     else:
-        print("No amounts found.")
+        print("No amounts found.....")
 
 # Example usage
 extract_amount_from_bill("bill2.png")  # Change the path to your bill image
